@@ -55,14 +55,24 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
-  winter_supplies = []
+    # holiday_hash = 
+  # {
+  #   :winter => {
+  #     :christmas => ["Lights", "Wreath"],
+  #     :new_years => ["Party Hats"]
+  #   },
+  #   :summer => {
+  #     :fourth_of_july => ["Fireworks", "BBQ"]
+  #   },
+  #   :fall => {
+  #     :thanksgiving => ["Turkey"]
+  #   },
+  #   :spring => {
+  #     :memorial_day => ["BBQ"]
+  #   }
+  # }
+  
   holiday_hash.each do |season, holidays|
-    holidays.each do |holiday, supplies|
-      if holiday[:christmas]
-        winter_supplies << supplies
-      end
-    end
-    winter_supplies.flatten
     binding.pry
   end
 end
