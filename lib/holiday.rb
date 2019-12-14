@@ -78,7 +78,6 @@ def all_winter_holiday_supplies(holiday_hash)
     else
       false
     end
-    binding.pry
   end
 end
 
