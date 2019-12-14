@@ -62,6 +62,8 @@ def all_winter_holiday_supplies(holiday_hash)
         winter_supplies << supplies
       end
     end
+    winter_supplies.flatten
+    binding.pry
   end
 end
 
