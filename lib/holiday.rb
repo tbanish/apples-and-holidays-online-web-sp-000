@@ -59,7 +59,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
       if holiday = :christmas || holiday = :new_years
-        winter_supplies.join << supplies
+        winter_supplies << supplies
           binding.pry
       end
     end
