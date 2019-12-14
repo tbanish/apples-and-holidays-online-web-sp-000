@@ -73,7 +73,7 @@ def all_winter_holiday_supplies(holiday_hash)
   # }
   
   holiday_hash.each do |season, holidays|
-    if season == :christmas
+    if season == :winter
       return true
     else
       false
